@@ -1,0 +1,535 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+.container {
+  margin: 0px auto;
+}
+
+.feane-bg {
+  background-image: url(/assets/images/hero-mobile1.jpg);
+  background-size: cover;
+}
+
+ul {
+  list-style: none;
+}
+
+i {
+  color: rgb(255, 255, 255);
+  transition: all 0.4s ease-in-out;
+}
+i:hover {
+  color: rgb(218, 165, 32);
+}
+
+a {
+  font-family: "Open Sans", sans-serif;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  transition: all 0.4s ease-in-out;
+}
+
+.btn {
+  background-color: rgb(255, 190, 51);
+  border-radius: 45px;
+  padding: 8px 10px;
+  display: inline-block;
+  width: 150px;
+  text-align: center;
+  transition: all 0.4s ease-in-out;
+}
+.btn:hover {
+  background-color: rgb(218, 165, 32);
+}
+
+section {
+  padding: 50px 0px;
+}
+
+.card {
+  background-color: rgb(34, 40, 49);
+  margin-top: 30px;
+}
+.card .nameend {
+  height: 50%;
+  padding: 25px;
+}
+.card .end {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+.card .end span {
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+}
+.card .end a {
+  position: relative;
+}
+.card .end a i {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: rgb(218, 165, 32);
+  padding: 12px;
+}
+.card .end a i:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgb(255, 190, 51);
+}
+.card .name {
+  padding: 0px;
+}
+.card .name h4 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.25rem;
+  margin-bottom: 20px;
+}
+.card .name p {
+  font-size: 15px;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 20px;
+}
+
+.title h2 {
+  font-family: "Dancing Script", cursive;
+  text-align: center;
+  font-size: 2.5em;
+}
+
+.card {
+  border-radius: 10px;
+}
+.card .name h4, .card .name p {
+  color: rgb(255, 255, 255);
+}
+
+.grey-bg {
+  height: 50%;
+  background-color: rgb(241, 242, 243);
+  border-bottom-left-radius: 30px;
+}
+.grey-bg img {
+  width: 100%;
+  height: 100%;
+  padding: 25px;
+  transition: all 0.4s ease-in-out;
+}
+.grey-bg img:hover {
+  transform: translateY(10px);
+}
+
+label[for=toggle-menu] {
+  position: absolute;
+  right: 20px;
+  top: 22px;
+}
+label[for=toggle-menu] i {
+  font-size: 24px;
+}
+
+input[type=checkbox] {
+  display: none;
+}
+
+.toggle-menu:checked + nav {
+  display: block;
+}
+
+header {
+  padding-top: 40px;
+}
+header nav {
+  width: 800px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header nav .navbar a {
+  color: rgb(255, 255, 255);
+}
+header nav .navbar a:hover {
+  color: rgb(218, 165, 32);
+}
+header nav a.active {
+  color: rgb(218, 165, 32);
+}
+header .user {
+  display: flex;
+  align-items: center;
+}
+header .user .icons {
+  width: 120px;
+  text-align: center;
+}
+header .user .icons i {
+  padding: 0 10px;
+  cursor: pointer;
+}
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .container h2 {
+  font-family: "Dancing Script", cursive;
+  color: rgb(255, 255, 255);
+}
+header .container ul {
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
+}
+
+main {
+  padding-top: 70px;
+}
+main .container {
+  padding-bottom: 200px;
+}
+main .intro {
+  padding: 75px 0;
+  width: 50%;
+}
+main .intro h2 {
+  color: rgb(255, 255, 255);
+  font-family: "Dancing Script", cursive;
+  font-size: 3.5em;
+  margin-bottom: 15px;
+}
+main .intro p {
+  color: rgb(255, 255, 255);
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+
+#thursdays .thursdays {
+  display: grid;
+  gap: 30px;
+}
+#thursdays .thursdays .card1 {
+  margin-top: 25px;
+  background-color: rgb(34, 40, 49);
+  padding-left: 15px;
+  border-radius: 6px;
+  display: flex;
+  width: 100%;
+  height: 250px;
+}
+#thursdays .thursdays .card1 .text {
+  margin-left: 30px;
+}
+#thursdays .thursdays .card1 .text h3 {
+  font-family: "Dancing Script", cursive;
+  font-size: 24px;
+  padding: 30px 0px;
+  color: rgb(255, 255, 255);
+  font-weight: 400;
+}
+#thursdays .thursdays .card1 .text h4 {
+  font-family: "Dancing Script", cursive;
+  font-size: 1rem;
+  padding: 0px 0px 20px 0px;
+  color: rgb(255, 255, 255);
+  font-weight: 400;
+}
+#thursdays .thursdays .card1 .text h4 span {
+  font-size: 50px;
+  font-weight: 400;
+}
+#thursdays .thursdays .card1 .img img {
+  border-radius: 50%;
+  border: 5px solid rgb(218, 165, 32);
+  margin-top: 25px;
+  transition: all 0.4s ease-in-out;
+}
+#thursdays .thursdays .card1 .img img:hover {
+  transform: translateY(10px);
+}
+
+#burger .burger {
+  display: grid;
+  gap: 30px;
+}
+
+#pizza .pizza {
+  display: grid;
+  gap: 30px;
+}
+
+#pasta .pasta {
+  display: grid;
+  gap: 30px;
+}
+
+#about {
+  background-color: rgb(34, 40, 49);
+}
+#about .container {
+  padding: 70px 0;
+  display: flex;
+}
+#about .container .about {
+  display: flex;
+  align-items: center;
+}
+#about .container .about .title {
+  padding-left: 30px;
+}
+#about .container .about .title h2 {
+  text-align: left;
+  color: rgb(255, 255, 255);
+  margin-bottom: 20px;
+}
+#about .container .about .title p {
+  margin-bottom: 30px;
+  color: rgb(255, 255, 255);
+  font-family: "Open Sans", sans-serif;
+}
+#about .container .logo img {
+  height: 600px;
+}
+
+#book {
+  display: grid;
+}
+#book .input {
+  text-align: center;
+  margin: 30px 0px;
+}
+#book .input input {
+  width: 555px;
+  height: 50px;
+  margin: 15px 0px;
+  border-radius: 5px;
+  padding: 6px 12px 6px 25px;
+  border: 1px solid #999;
+  font-size: 1rem;
+}
+#book .input input[type=date] {
+  color: #999;
+}
+#book .input a {
+  margin-top: 20px;
+}
+
+#testimonial .container .testimonial {
+  display: flex;
+  gap: 30px;
+}
+#testimonial .container .testimonial .card .testimonials {
+  padding: 25px 15px 25px;
+  color: rgb(255, 255, 255);
+  font-family: "Open Sans", sans-serif;
+}
+#testimonial .container .testimonial .card .testimonials p {
+  margin-bottom: 10px;
+  font-family: "Dancing Script", cursive;
+  font-weight: 400;
+  font-size: 20px;
+}
+#testimonial .container .testimonial .card .testimonials h5 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+#testimonial .container .testimonial .card .client {
+  background-color: rgb(255, 255, 255);
+}
+#testimonial .container .testimonial .card .client img {
+  width: 100px;
+  border-radius: 50%;
+  border: 5px solid rgb(218, 165, 32);
+  margin-top: 25px;
+  transition: all 0.4s ease-in-out;
+}
+#testimonial .container .testimonial .card .client img:hover {
+  transform: translateY(-10px);
+}
+
+footer {
+  background-color: rgb(34, 40, 49);
+}
+footer .copyright p {
+  text-align: center;
+  padding-bottom: 50px;
+}
+footer .footer {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  gap: 30px;
+  padding-top: 50px;
+}
+footer .contact {
+  margin-bottom: 50px;
+  text-align: center;
+}
+footer .contact i {
+  margin: 8px;
+}
+footer .contact a {
+  color: rgb(255, 255, 255);
+}
+footer .contact a:hover {
+  color: rgb(218, 165, 32);
+}
+footer .opening {
+  text-align: center;
+}
+footer .opening p {
+  margin-bottom: 16px;
+}
+footer .feane {
+  text-align: center;
+}
+footer .feane .copyright {
+  padding: 30px;
+}
+footer .feane p {
+  margin-bottom: 16px;
+}
+footer .feane .icons i {
+  font-size: 2rem;
+  margin: 0 5px;
+}
+footer h4 {
+  font-size: 28px;
+  color: rgb(255, 255, 255);
+  font-family: "Dancing Script", cursive;
+  margin-bottom: 20px;
+}
+footer p, footer span {
+  color: rgb(255, 255, 255);
+  font-family: "Open Sans", sans-serif;
+}
+
+@media screen and (max-width: 576px) {
+  .container {
+    width: 90%;
+  }
+  .feane-bg {
+    background-image: url(/assets/images/hero-mobile1.jpg);
+    height: 80vh;
+  }
+  header {
+    padding-top: 20px;
+  }
+  header .container {
+    flex-direction: column;
+  }
+  header .container .name {
+    width: 20%;
+    padding-right: 350px;
+  }
+  header .container nav {
+    flex-direction: column;
+    display: none;
+    width: 100%;
+    padding-top: 15px;
+  }
+  header .container nav ul {
+    width: 100%;
+  }
+  header .container nav .user {
+    padding-left: 55px;
+  }
+  header .container nav .navbar {
+    margin-bottom: 20px;
+  }
+  header .container nav ul {
+    flex-direction: column;
+  }
+  header .container nav ul li {
+    margin: 5px auto;
+  }
+  main .container {
+    padding: 0;
+  }
+  main .container .intro {
+    width: 100%;
+    padding: 0px 20px;
+  }
+  main .container .intro p {
+    line-height: 20px;
+  }
+  #thursdays .thursdays {
+    grid-template-columns: 1fr;
+  }
+  #thursdays .thursdays .card1 {
+    display: block;
+    height: 450px;
+    padding-left: 0;
+  }
+  #thursdays .thursdays .card1 .text {
+    margin-left: 0px;
+  }
+  #thursdays .thursdays .card1 .img img {
+    margin-left: 25%;
+  }
+  #thursdays .thursdays .card1 .text {
+    text-align: center;
+  }
+  #burger .burger {
+    grid-template-columns: 1fr;
+  }
+  #pizza .pizza {
+    grid-template-columns: 1fr;
+  }
+  #pasta .pasta {
+    grid-template-columns: 1fr;
+  }
+  #about {
+    grid-template-columns: 1fr;
+  }
+  #about .container {
+    flex-direction: column;
+  }
+  #about .container .about .title {
+    text-align: center;
+    padding-left: 0px;
+  }
+  #about .container .about .title h2 {
+    text-align: center;
+  }
+  #about .container .logo img {
+    width: 100%;
+  }
+  #book .input input {
+    width: 100%;
+  }
+  #testimonial {
+    grid-template-columns: 1fr;
+  }
+  footer .footer {
+    grid-template-columns: 1fr;
+  }
+  footer .copyright p {
+    margin-top: 30px;
+  }
+}
+@media screen and (min-width: 998px) {
+  .container {
+    width: 1200px;
+  }
+  label[for=toggle-menu] {
+    display: none;
+  }
+  #thursdays .thursdays {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  #burger .burger {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  #pizza .pizza {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  #pasta .pasta {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  #testimonial {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}/*# sourceMappingURL=style.css.map */
