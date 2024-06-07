@@ -411,7 +411,7 @@ footer p, footer span {
     width: 90%;
   }
   .feane-bg {
-    background-image: url(/assets/images/hero-mobile1.jpg);
+    background-image: url(../images/hero-mobile1.jpg);
     height: 80vh;
   }
   header {
