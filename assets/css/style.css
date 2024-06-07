@@ -9,7 +9,7 @@
 }
 
 .feane-bg {
-  background-image: url('/assets/images/main-feane.jpg');
+  background-image: url('../assets/images/main-feane.jpg');
   background-size: cover;
 }
 
