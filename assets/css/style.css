@@ -9,7 +9,7 @@
 }
 
 .feane-bg {
-  background-image: url(/assets/images/hero-mobile1.jpg);
+  background-image: url('/assets/images/hero-mobile1.jpg');
   background-size: cover;
 }
 
