@@ -13,7 +13,6 @@ Welcome to the Feane Burger static website repository! This project showcases a 
 
 - **HTML5:** Structure of the website.
 - **CSS3:** Styling and layout.
-- **JavaScript:** Interactive functionalities.
 - **Bootstrap:** Responsive design framework.
 
 ## Setup and Installation
