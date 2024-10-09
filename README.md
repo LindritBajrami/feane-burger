@@ -13,25 +13,8 @@ Welcome to the Feane Burger static website repository! This project showcases a 
 
 - **HTML5:** Structure of the website.
 - **CSS3:** Styling and layout.
-- **Bootstrap:** Responsive design framework.
 
-## Setup and Installation
+## Deployment
 
-To run this project locally, follow these steps:
-
-1. **Clone the repository:**
-
-    ```bash
-    git clone https://github.com/lindritbajrami/feane-burger.git
-    ```
-
-2. **Navigate to the project directory:**
-
-    ```bash
-    cd feane-burger
-    ```
-
-3. **Open `index.html` in your web browser:**
-
-    Simply double-click on the `index.html` file.
+The app is deployed and can be accessed at https://lindritbajrami.github.io/feane-burger/#
 
